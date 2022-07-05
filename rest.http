@@ -1,0 +1,37 @@
+### add new product (get)
+GET http://localhost:5000/insert
+
+### 
+POST http://localhost:5000/postInsert HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Percha",
+    "category": "aaaaaa"
+}
+
+### read
+GET http://localhost:5000/read
+
+### update 
+GET http://localhost:5000/update
+
+### remove
+GET http://localhost:5000/remove
+
+### remove all and reset -- ESTA NO SIRVE, porque hay que primero quitar el check de las foreing key y es alta paja hacelro por aca, no se va a usar
+GET http://localhost:5000/deleteAll
+
+
+
+### add new product (pool)
+GET http://localhost:5000/insert-pool
+
+### read
+GET http://localhost:5000/read-pool
+
+### update 
+GET http://localhost:5000/update-pool
+
+### remove
+GET http://localhost:5000/remove-pool
